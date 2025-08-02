@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: e3nn-Unet
+Version: 0.1.0
+Summary: Segmentation network with O3 and SO3 equivariant convolutions
+Home-page: https://github.com/SCAN-NRAD/e3nn_Unet
+License: MIT
+Keywords: MRI,segmentation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7

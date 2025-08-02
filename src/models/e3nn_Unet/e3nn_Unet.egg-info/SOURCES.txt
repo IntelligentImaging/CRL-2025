@@ -1,0 +1,7 @@
+README.md
+setup.py
+e3nn_Unet/e3nn_Unet.egg-info/PKG-INFO
+e3nn_Unet/e3nn_Unet.egg-info/SOURCES.txt
+e3nn_Unet/e3nn_Unet.egg-info/dependency_links.txt
+e3nn_Unet/e3nn_Unet.egg-info/requires.txt
+e3nn_Unet/e3nn_Unet.egg-info/top_level.txt

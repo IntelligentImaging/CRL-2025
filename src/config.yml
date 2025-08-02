@@ -1,0 +1,42 @@
+spatial_dims: "3d" #'3d' or '2d'
+model_name: "DynUNet" # see model_zoo.py (this name should be same as the one you load for testing)
+saved_model_path: "../checkpoints/saved_models_MIDL/DynUNet/" # path to save the model or read the saved model for test
+
+in_channels: 1
+out_channels: 19 # number of labels, for extraction select 2, for FeTA 8 and for BCH 19
+img_size: [128, 128, 128] # please see data_generator
+voxel_spacing: [1, 1, 1]
+dropout: 0.0
+include_background: False
+
+train_mode: # Configs for train.py
+  train_data_type: "file" # it can be 'file' or 'path' see data_generator
+  train_data_paths: ['../datasets/t2_tissue/data_csv/train_data.csv']
+
+  validation_data_type: "file"
+  validation_data_paths: ['../datasets/t2_tissue/data_csv/test_data.csv']
+
+  augmentation: True
+  fast_training: True # enables monai fast training
+
+  max_epochs: 300
+  val_interval: 2
+  batch_size: 4
+  optimizer: "Adam"
+  learning_rate: 0.0005
+
+
+test_mode: # Configs for test.py
+  saved_model_name: "checkpoint_best.pth"
+  save_results_path: "../results/test"
+
+  test_data_type: "file"
+  test_data_paths: ['../datasets/t2_tissue/data_csv/test_data.csv']
+  modality: "T2MIDL" # This is for naming purpose for extraction: "DWI", "fMRI", "fMRI-ON", "T2W" or "otherscanners",
+                      #for segmentation: "T2MIDL" see line 200 in test.py
+
+  test_augmentation: False
+  save_predictions: True
+  save_metrics: True
+  plot_results: True
+  data_root_dir: "../datasets/"  # see monai SaveImaged (this is to make sure saved pred mask have the same dir)
