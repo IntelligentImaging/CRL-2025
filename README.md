@@ -19,7 +19,7 @@ The overall schematic of the proposed model is as follows:
 
 
 # 📦 Download Pretrained Model
-The pretrained models used in our paper are available at: 
+The pretrained models, datasets and all the nessacry materials used in our paper are available at: 
 
 # Citation
 If you find the article or code helpful, please cite the journal version of our paper:
