@@ -1,4 +1,4 @@
-# CRL2025
+# CRL 2025
 
 Welcome to the official repository for CRL2025: 
 **MRI Atlas of the Human Fetal Brain: Reference
