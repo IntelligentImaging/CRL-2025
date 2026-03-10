@@ -20,7 +20,7 @@ The overall schematic of the proposed model is as follows:
 
 # 📦 Download Pretrained Model
 The pretrained models, datasets, and all the necessary materials used in our paper are available at: 
-https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FA98K4K&version=DRAFT
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FA98K4K
 
 # Citation
 If you find the article or code helpful, please cite the journal version of our paper:
