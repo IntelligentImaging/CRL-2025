@@ -19,7 +19,10 @@ The overall schematic of the proposed model is as follows:
 
 
 # 📦 Download Pretrained Model
-The pretrained models, datasets and all the nessacry materials used in our paper are available at: 
+The pretrained models, datasets, and all the necessary materials used in our paper are available at: 
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FA98K4K&version=DRAFT
 
 # Citation
 If you find the article or code helpful, please cite the journal version of our paper:
+Bagheri, M., Velasco-Annis, C., Wang, J., Faghihpirayesh, R., Khan, S., Calixto, C., Jaimes, C., Vasung, L., Ouaalam, A., Afacan, O., Warfield, S.K., 2025, Rollins, C.K., and Gholipour A. An MRI Atlas of the Human Fetal Brain: Reference and Segmentation Tools for Fetal Brain MRI Analysis. arXiv preprint arXiv:2508.15034.
+
